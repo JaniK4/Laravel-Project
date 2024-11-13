@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap+Condensed:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap+Condensed:wght@200&family=Ubuntu:ital,wght@1,500&display=swap');
+
+*{
+    font-family: 'Asap Condensed', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+body {
+    background-color: #f4f4f4;
+}
+
+.dashboard-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.header {
+    background: #333;
+    color: #fff;
+    padding: 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dashboard-content {
+    display: flex;
+    flex: 1;
+}
+.logout-btn {
+    color: white !important;
+    background-color: #2757da !important;
+    border: none !important;
+    border-radius: 10px !important;
+    padding: 8px 16px !important;
+    font-size: 1em !important;
+    cursor: pointer !important;
+    text-decoration: none !important;
+    display: inline-block !important;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.logout-btn:hover {
+    background-color: #193fa5 !important;
+    color: white !important;
+}
+
+.sidebar {
+    background: #193fa5;
+    color: #fff;
+    width: 300px;
+    padding-top: 3%;
+    
+}
+
+.sidebar ul {
+    list-style: circle;
+    
+}
+
+/* .sidebar ul li {
+    margin: 2rem 0;
+    
+} */
+
+.list-con {
+    color: #fff;
+    text-decoration: none;
+    
+    padding: 10%;
+    transition: padding-left 0.3s ease, background-color 0.3s ease; /* Smooth transition for padding and background color */
+}
+
+.list-con:hover {
+    background-color: #1e3a8f; /* Change background color on hover */
+    font-weight: bold; /* Bold text on hover */
+    padding-left: 20%; /* Increase left padding on hover for text movement */
+}
+
+
+.main-content {
+    flex: 1;
+    padding: 20px;
+    background: #ecf0f1;
+
+}
+.add-content {
+    flex: 1;
+    padding: 2%;
+    background: #ecf0f1;
+    
+}
+.text-center{
+    margin: 2rem auto;
+    font-weight: bolder;
+    text-shadow: 0 3px 5px #7183b9;
+    font-size: 2.5rem;
+}
+.add-food{
+    padding: 5%;
+    width: 60%;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-radius: 2rem;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1); 
+}
+
+
+.item{
+    font-weight: bold;
+    padding-bottom: 0.5rem ;
+}
+.form-control{
+    margin-bottom: 0.5rem;
+}
+.submit{
+    padding: 0.5rem 1.5rem;
+    background-color: #193fa5;
+    font-weight: 500;
+    font-size: 1.2rem;
+    color: white;
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+    width: 30%;
+    margin: 0.5rem auto;
+    display: block; /* Make the button a block element to apply margin */
+    transition: background-color 0.3s ease;
+}
+.submit:hover{
+    background-color: #13265e;
+    font-weight: bolder;
+}
+
+
+/* table of view */
+table{
+    border-radius: 1rem; /* Curves the table's corners */
+    overflow: hidden; /* Ensures the curved borders are applied to the entire table */
+}
+td,th {
+   
+    text-align: center;  /* Centers text horizontally */
+    vertical-align:middle;
+}
+.view-head{
+    font-weight: bolder;
+    padding: 1rem;
+}
+.table-container{
+    padding: 0% 10% 5% 5%;
+    
+}
+
+
+

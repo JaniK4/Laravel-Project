@@ -1,0 +1,136 @@
+.navbar .n_button {
+    color: white !important;
+    background-color: #197cb6 !important;
+    border: none !important;
+    border-radius: 10px !important;
+    padding: 8px 16px !important;
+    font-size: 1em !important;
+    cursor: pointer !important;
+    text-decoration: none !important;
+    display: inline-block !important;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar .n_button:hover {
+    background-color: rgb(15, 96, 163) !important;
+    color: white !important;
+}
+
+.login{
+    padding-top: 140px;
+    padding-bottom: 150px;
+}
+
+.login-form {
+    margin-top: 100px; /* To avoid overlap with the navbar */
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px;
+    max-width: 400px;
+    border-radius: 12px;
+    background-color: #4073be; /* Keeping your background color */
+    color: white; /* Keeping your text color */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Modern shadow effect */
+}
+form{
+    padding: 3% 5% 3% 5%;
+}
+.login-form h5 {
+    margin-bottom: 30px;
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.login-form .form-group {
+    margin-bottom: 20px;
+}
+
+.login-form label {
+    font-size: 18px;
+    font-weight: 800;
+    padding-bottom: 10px;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc; /* Modern, light border */
+    font-size: 16px;
+}
+
+.login-form input:focus {
+    outline: none;
+    border-color: #1e4785; /* Border color change on focus */
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1); /* Subtle shadow on focus */
+}
+
+.login-form .btn {
+    background-color: #28a745; /* Keeping your button color */
+    color: white; /* Keeping button text color */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 30%;
+    margin: 50px auto 10px auto; /* Center the button with equal margins on left and right */
+    display: block; /* Make the button a block element to apply margin */
+    transition: background-color 0.3s ease;
+}
+
+.login-form .btn:hover {
+    background-color: #32be78; /* Darker green on hover */
+}
+
+.login-form input[type="submit"]:hover {
+    background-color: #199959; /* Matching the hover state */
+}
+
+/* Media Query for smaller screens */
+@media (max-width: 768px) {
+    .login-form {
+        margin: 20px;
+        padding: 20px;
+        max-width: 100%;
+    }
+}
+
+
+
+#add-content {
+    flex: 1;
+    padding: 2%;
+    background: #ecf0f1;
+}
+#add-food{
+    padding: 5%;
+    width: 60%;
+}
+#item{
+    font-weight: bold;
+    padding-bottom: 0.5rem ;
+}
+#form-control{
+    margin-bottom: 0.5rem;
+}
+#submit{
+    padding: 0.5rem 1.5rem;
+    background-color: #193fa5;
+    font-weight: 500;
+    font-size: 1.2rem;
+    color: white;
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+    width: 30%;
+    margin: 0.5rem auto;
+    display: block; /* Make the button a block element to apply margin */
+    transition: background-color 0.3s ease;
+}
+#submit:hover{
+    background-color: #13265e;
+    font-weight: bolder;
+}
